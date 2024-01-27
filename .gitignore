@@ -79,3 +79,7 @@ DerivedDataCache/*
 
 # rider 관련 파일 ignore
 .idea/*
+
+# External ignore
+Content/__ExternalActors__*
+Content/__ExternalObjects__*
