@@ -83,3 +83,6 @@ DerivedDataCache/*
 # External ignore
 Content/__ExternalActors__*
 Content/__ExternalObjects__*
+
+# Paragon Ignore
+Content/*Paragon*
