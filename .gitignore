@@ -84,5 +84,6 @@ DerivedDataCache/*
 Content/__ExternalActors__*
 Content/__ExternalObjects__*
 
-# Paragon Ignore
-Content/*Paragon*
+# ProjectR 폴더를 제외한 나머지 ignore
+Content/!ProjectR
+Content/*
