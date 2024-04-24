@@ -24,8 +24,6 @@
 *.la
 *.a
 *.lib
-# 타 파트 공유를 위해 몇몇 파일은 살림
-!Binaries/Win64/*.dll
 
 # Executables
 *.exe
@@ -48,10 +46,13 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
+
 # 타 파트 공유를 위해 몇몇 파일은 살림
-Binaries/*
 !Binaries/Win64/
 Plugins/*/Binaries/*
+
+#debug 관련 파일 ignore
+Binaries/Win64/*DebugGame*
 
 # Builds
 Build/*
@@ -80,10 +81,7 @@ DerivedDataCache/*
 # rider 관련 파일 ignore
 .idea/*
 
-# External ignore
-Content/__ExternalActors__*
-Content/__ExternalObjects__*
-
-# ProjectR 폴더를 제외한 나머지 ignore
-Content/!ProjectR
+# ProjectR, Test 폴더를 제외한 나머지 ignore
 Content/*
+!Content/ProjectR/
+!Content/Test/
